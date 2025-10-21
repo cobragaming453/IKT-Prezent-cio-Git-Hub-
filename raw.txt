@@ -1,0 +1,61 @@
+Előnyök
+1. Verziókezelés
+
+Könnyen nyomon követhető, ki mit és mikor változtatott.
+
+Előző verziókhoz bármikor vissza lehet térni.
+
+2. Párhuzamos munka (Branch-elés)
+
+Több fejlesztő dolgozhat egyszerre külön funkciókon.
+
+A branch-ek lehetővé teszik, hogy izoláltan dolgozzanak anélkül, hogy zavarnák egymást.
+
+3. Pull Request (PR) rendszer
+
+Lehetőséget ad a kód átnézésére (code review) merge előtt.
+
+Növeli a kód minőségét, csökkenti a hibák esélyét.
+
+4. Automatizálás és integrációk
+
+CI/CD folyamatok egyszerű integrálása.
+
+Tesztelés, buildelés és deploy automatizálható.
+
+5. Kommunikáció és dokumentálás
+
+Issue-k, PR megjegyzések, README fájl segíti a belső kommunikációt.
+
+Átláthatóvá válik a csapat működése.
+
+6. Nyílt forráskód és együttműködés
+
+Egyszerűen lehet más fejlesztőkkel vagy csapatokkal együtt dolgozni, akár nyilvános, akár privát repo esetén.
+
+Könnyen lehet új tagokat bevonni a projektbe.
+
+7. Biztonsági mentés és felhőalapú tárolás
+
+A kód mindig elérhető online, biztonságos GitHub szervereken.
+
+Hátrányok
+1. Tanulási görbe
+
+A Git és GitHub használata eleinte bonyolult lehet kezdőknek (merge konfliktusok, rebase, pull/push).
+
+2. Merge konfliktusok
+
+Ha többen módosítanak ugyanazon a fájlon, ütközések léphetnek fel, amit kézzel kell megoldani.
+
+3. Hibás használat veszélye
+
+Nem megfelelő branch-elés, direkt push a főágra (main/master), teszt nélküli merge hibákhoz vezethet.
+
+4. Kommunikáció hiánya
+
+Ha a csapattagok nem megfelelően dokumentálnak vagy kommunikálnak az issue-kon, PR-eken keresztül, az együttműködés nehézkessé válhat.
+
+5. Privát repók korlátozottsága (ingyenes fiók esetén)
+
+Az ingyenes GitHub fiókoknál régebben limitált volt a privát repók száma vagy funkcionalitása (ez mára nagyrészt változott, de vállalati környezetben előfordulhat).
